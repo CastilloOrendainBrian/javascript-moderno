@@ -53,3 +53,6 @@ coverage/
 *.swo
 *.orig
 *.tmp
+
+# Personal rules
+cartas/
