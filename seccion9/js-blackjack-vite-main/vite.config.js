@@ -4,6 +4,6 @@ export default defineConfig({
     base: "/javascript-moderno/",
     plugins: [],
     define: {
-        'process.env.BASE_URL': JSON.stringify('/javascript-moderno/')
+        'process.env.CARTS_URL': JSON.stringify('/javascript-moderno/assets/carts/')
     }
 });
