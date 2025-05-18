@@ -1,7 +1,7 @@
 const heroes = ['Batman','Superman','Flash','Green Lantern'];
 // const heroesCopy = heroes;
 
-const deletedHero = heroes.spliced(0, 1, 'Wonder Woman');
+const deletedHero = heroes.toSpliced(0, 1, 'Wonder Woman');
 
 // heroes.sort();
 // const sortedHeroes = heroes.toSorted();
@@ -12,4 +12,4 @@ const deletedHero = heroes.spliced(0, 1, 'Wonder Woman');
 console.table(heroes);
 // console.table(sortedHeroes);
 // console.table(reversedHeroes);
-console.log(deletedHero);
+console.table(deletedHero);
